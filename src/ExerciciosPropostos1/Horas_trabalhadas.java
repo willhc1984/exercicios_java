@@ -1,3 +1,4 @@
+package ExerciciosPropostos1;
 import java.util.Scanner;
 
 public class Horas_trabalhadas {

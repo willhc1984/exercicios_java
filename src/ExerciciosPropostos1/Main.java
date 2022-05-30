@@ -1,3 +1,4 @@
+package ExerciciosPropostos1;
 import java.util.Locale;
 
 public class Main {
