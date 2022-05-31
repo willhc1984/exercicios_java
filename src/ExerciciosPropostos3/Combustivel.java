@@ -25,7 +25,6 @@ public class Combustivel {
 		System.out.printf("%d clientes abasteceram com alcool: \n ", alcool );
 		System.out.printf("%d clientes abasteceram com gasolina: \n ", gasolina );
 		System.out.printf("%d clientes abasteceram com diesel: \n ", diesel );
-		
 
 	
 	}
