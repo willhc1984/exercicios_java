@@ -1,4 +1,4 @@
-package ExerciciosPropostos1;
+package exerciciosPropostos1;
 import java.util.Locale;
 
 public class Main {

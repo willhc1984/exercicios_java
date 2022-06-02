@@ -1,4 +1,4 @@
-package ExerciciosPropostos1;
+package exerciciosPropostos1;
 import java.util.Scanner;
 
 public class Calculos_geometricos {
