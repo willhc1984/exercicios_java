@@ -19,25 +19,20 @@ public class Program {
 			System.out.println("Employee # " +i+ " data:");
 			System.out.print("Outsourced? (y/n)");
 			char o = sc.next().charAt(0);
-			if(o == 'n'){
-				System.out.print("Name: ");
-				String name = sc.next();
-				System.out.print("Hours: ");
-				int hours = sc.nextInt();
-				System.out.print("Value per hours: ");
-				double valuePerHours = sc.nextDouble();
-				employee = new Employee(name, hours, valuePerHours);
-				employess.add(employee);
-			}else {
-				System.out.print("Name: ");
-				String name = sc.next();
-				System.out.print("Hours: ");
-				int hours = sc.nextInt();
-				System.out.print("Value per hours: ");
-				double valuePerHours = sc.nextDouble();
+			System.out.print("Name: ");
+			String name = sc.next();
+			System.out.print("Hours: ");
+			int hours = sc.nextInt();
+			System.out.print("Value per hours: ");
+			double valuePerHours = sc.nextDouble();
+			
+			if(o == 'y'){		
 				System.out.print("Additional charge: ");
 				double additionalCharge = sc.nextDouble();
 				employee = new OutsourceEmployee(name, hours, valuePerHours, additionalCharge);
+				employess.add(employee);
+			}else {
+				employee = new Employee(name, hours, valuePerHours);
 				employess.add(employee);
 			}
 		}
@@ -46,7 +41,8 @@ public class Program {
 		for(Employee e : employess) {
 			System.out.println(e.getName() +" - " + e.payment());
 		}
-
+		
+		sc.close();
 	}
 
 }
