@@ -1,4 +1,4 @@
-package Interface_ClasseAbstrata;
+package interface_classeAbstrata;
 
 public class Rectangle extends AbstractShape{
 	
