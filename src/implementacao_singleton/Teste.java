@@ -1,7 +1,4 @@
-package implementacao_interfaces;
-
-import implementacao_singleton.SingletonEager;
-import implementacao_singleton.SingletonLazy;
+package implementacao_singleton;
 
 public class Teste {
 
