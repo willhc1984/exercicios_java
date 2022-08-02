@@ -1,4 +1,4 @@
-package interface_classeAbstrata;
+package interface_ClasseAbstrata;
 
 public abstract class AbstractShape implements Shape{
 	

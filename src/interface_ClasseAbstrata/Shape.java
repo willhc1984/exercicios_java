@@ -1,4 +1,4 @@
-package interface_classeAbstrata;
+package interface_ClasseAbstrata;
 
 public interface Shape {
 	
